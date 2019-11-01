@@ -2,7 +2,7 @@
 
 ## Install environment
 
-*Step 1:*
+**Step 1:**
 
 Pull the images by running
 
@@ -10,7 +10,7 @@ Pull the images by running
 scripts/pull_images.sh
 ```
 
-*Step 2:*
+**Step 2:**
 
 Run the image the first time
 
@@ -28,7 +28,7 @@ docker run -it --name tensorflow -p 8888:8888 jupyter/tensorflow-notebook
 
 The containers can be stopped and started. Everything will be saved.
 
-To kill a container run
+### To kill a container run
 
 ```sh
 docker kill jupyter-spark
@@ -40,7 +40,7 @@ or
 docker kill tensorflow
 ```
 
-To start a container again run
+### To start a container again run
 
 ```sh
 docker start jupyter-spark -i
